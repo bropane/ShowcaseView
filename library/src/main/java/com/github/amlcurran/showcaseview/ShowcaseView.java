@@ -399,12 +399,11 @@ public class ShowcaseView extends RelativeLayout
         }
 
         /**
-         * Create the {@link com.github.amlcurran.showcaseview.ShowcaseView} and show it.
+         * Create the {@link com.github.amlcurran.showcaseview.ShowcaseView}.
          *
          * @return the created ShowcaseView
          */
         public ShowcaseView build() {
-            insertShowcaseView(showcaseView, activity);
             return showcaseView;
         }
 
